@@ -1,0 +1,27 @@
+{
+  "name": "job-search-visualizer",
+  "version": "1.0.0",
+  "description": "A way to visually keep track of your job search using D3",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zcoursey22/job-search-visualizer.git"
+  },
+  "author": "Zach Coursey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zcoursey22/job-search-visualizer/issues"
+  },
+  "homepage": "https://github.com/zcoursey22/job-search-visualizer#readme",
+  "dependencies": {
+    "koa": "^2.5.2",
+    "koa-static": "^5.0.0"
+  },
+  "devDepencies": {
+    "nodemon": "^1.18.4"
+  }
+}
