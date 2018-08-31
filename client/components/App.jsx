@@ -26,12 +26,12 @@ class App extends Component {
 
   render() {
     const Map = styled.svg`
-      > .states > * {
+      > .states > path {
         fill: #ddd;
         transition: 0.2s;
       }
 
-      > .states > *:hover {
+      > .states > path:hover {
         fill: #bdc;
       }
 
@@ -47,9 +47,7 @@ class App extends Component {
 
     return (
       <div className="App">
-        <h2>Hello React</h2>
-        <Map width="960px" height="600px">
-        </Map>
+        <Map width="960px" height="600px"></Map>
       </div>
     );
   }
